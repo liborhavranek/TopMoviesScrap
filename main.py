@@ -19,6 +19,6 @@ films.reverse()
 
 print(films)
 
-with open("movies_list.txt", mode="w", encoding="utf-8") as f:
+with open("movies_list.txt","w", encoding="utf-8") as f:
 	for item in films:
 		f.write(f"{item}\n")
